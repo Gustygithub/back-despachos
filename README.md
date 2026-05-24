@@ -63,3 +63,6 @@ Se utiliza **named volume** (`mysql_data`) para persistir los datos de MySQL. Es
 ├── Dockerfile              # Multi-stage build
 ├── docker-compose.yml      # Stack completo
 └── README.md
+## Despliegue en AWS EC2
+
+La aplicación está desplegada en una instancia EC2 de Amazon Linux 2023 con Docker instalado. Solo el Frontend es accesible desde Internet, el Backend opera en subred privada.
